@@ -1,0 +1,49 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-family: monospace
+}
+
+.sidebar a.active {
+    background-color: lightpink;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: palevioletred;
+    color: white;
+}
+
+main.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    font-family: monospace
+}
+
+header {
+    background-color: lightpink;
+    font-family: monospace;
+    position: fixed;
+    font-size: 13px
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    display: block;
+}
